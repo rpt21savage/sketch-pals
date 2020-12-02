@@ -35,10 +35,11 @@ A cooperative / competitive drawing game using image classification concepts for
 <table>
   <tr>
     <!-- Christina Wang -->
-    <td align="center">
+    <td align="center" style="border:none">
       <a href="https://github.com/cywang117">
         <img
-          src="https://avatars0.githubusercontent.com/u/38748558?s=400&v=4" style="width:100px;border-radius:50px;"
+          src="https://avatars0.githubusercontent.com/u/38748558?s=400&v=4" width="100px"
+          style="border-radius:50%"
           alt="Christina Wang"
         />
         <br />
@@ -46,11 +47,12 @@ A cooperative / competitive drawing game using image classification concepts for
       </a>
     </td>
     <!-- Eric Zepeda -->
-    <td align="center">
+    <td align="center" style="border:none">
       <a href="https://github.com/cmonez">
         <img
           src="https://avatars1.githubusercontent.com/u/39146411?s=460&u=3a6ecc86d5fe05ae09e235b4f5b6d243a2717aac&v=4"
-          style="width:100px;border-radius:50px;"
+          width="100px"
+          style="border-radius:50%"
           alt="Eric Zepeda"
         />
         <br />
@@ -58,11 +60,12 @@ A cooperative / competitive drawing game using image classification concepts for
       </a>
       </td>
     <!-- Krissy Do -->
-    <td align="center">
+    <td align="center" style="border:none">
       <a href="https://github.com/krisdo">
         <img
           src="https://avatars1.githubusercontent.com/u/57049106?s=460&u=f60f0ab826fa293ea45cddab09f8bba666132352&v=4"
-          style="width:100px;border-radius:50px;"
+          width="100px"
+          style="border-radius:50%"
           alt="Krissy Do"
         />
         <br />
@@ -70,11 +73,12 @@ A cooperative / competitive drawing game using image classification concepts for
       </a>
     </td>
     <!-- Micko Cabacungan -->
-    <td align="center">
+    <td align="center" style="border:none">
       <a href="https://github.com/nightlaro">
         <img
           src="https://avatars2.githubusercontent.com/u/53090061?s=460&u=40baff981fb886ff5862e5886f2c3deb8bfd343e&v=4"
-          style="width:100px;border-radius:50px;"
+          width="100px"
+          style="border-radius:50%"
           alt="Micko Cabacungan"
         />
         <br />
