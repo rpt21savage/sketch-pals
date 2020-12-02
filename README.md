@@ -8,7 +8,7 @@ A cooperative / competitive drawing game using image classification concepts for
 - React & ReactDOM for stateful design ✅
 - Styled-Components for modular styling ✅
 - INSERT_CANVAS_LIB for drawing canvas ⬜
-- ESLint to set common style conventions
+- ESLint to set common style conventions ⬜
 
 ### Backend
 - Python server built on Django, Graphene (GraphQL) ⬜
@@ -23,7 +23,7 @@ A cooperative / competitive drawing game using image classification concepts for
 - Jest, React-Testing-Library for frontend testing ⬜
 - INSERT_PYTHON_LIB for server testing ⬜
 - CircleCI for test reliability, fault isolations, and continuous deployment ⬜
-- Docker for simplified deployment env
+- Docker for simplified deployment env ⬜
 - AWS EC2 for hosting ⬜
 
 ## Usage
