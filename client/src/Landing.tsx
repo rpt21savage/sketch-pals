@@ -2,13 +2,13 @@ import * as React from 'react';
 import styled from 'styled-components'
 
 const Container = styled.div`
-height: 100vh;
-background: rgb(74,142,231);
-background: linear-gradient(180deg, rgba(74,142,231,1) 0%, rgba(169,244,173,1) 100%);
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
+  height: 100vh;
+  background: rgb(74,142,231);
+  background: linear-gradient(180deg, rgba(74,142,231,1) 0%, rgba(169,244,173,1) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 `
 
 const InterActiveButton = styled.button`
