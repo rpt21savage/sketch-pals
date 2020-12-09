@@ -25,14 +25,27 @@ const ButtonContainer = styled.div`
   align-items: center;
   width: 100%;
 `
+const StyledHeader = styled.header`
+  font-size: 4em;
+
+  @media(max-width: 700px) {
+    font-size: 3em;
+  }
+  @media(max-width: 550px) {
+    font-size: 2em;
+  }
+  @media(max-width: 350px) {
+    font-size: 1.5em;
+  }
+`
 
 const Landing:React.FC = () => {
   // Should include title, and "Join Game" / "Create a Game" buttons. Possibly option to view ongoing public games
   return (
     <Container>
-      <header>
+      <StyledHeader>
           <h1>Sketch Pals</h1>
-      </header>
+      </StyledHeader>
           <ButtonContainer>
             <InterActiveButton>Create Game</InterActiveButton>
             <InterActiveButton>Join Game</InterActiveButton>
