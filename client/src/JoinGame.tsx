@@ -8,6 +8,7 @@ interface Props {
 }
 const JoinGame:React.FC<Props> = ( { toggleModal, isActive } ) => {
   const myRef = useRef<HTMLDivElement>(null)
+  const [gameLink, setGameLink] = useState<string>("");
 
   const handleClickOutside = e => {
     if (!myRef.current.contains(e.target)) {
@@ -29,6 +30,16 @@ const JoinGame:React.FC<Props> = ( { toggleModal, isActive } ) => {
       <ModalStyle ref={myRef} onClick={()=> handleClickInside()}>
         <JoinContainer >
           <JoinHeader>Join Game</JoinHeader>
+        <label>
+        Game Link:
+        <input
+          type="text"
+          value={gameLink}
+          onChange={e => {
+            setGameLink(e.target.value)
+          }}
+        />
+      </label>
         </JoinContainer>
       </ModalStyle>
   );
