@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
 import { ModalStyle, JoinContainer, JoinHeader } from '../styles/Join';
+import { InterActiveButton } from '../styles/Landing';
 
 interface Props {
   toggleModal: (isActive: boolean) => void;
@@ -21,6 +22,10 @@ const JoinGame:React.FC<Props> = ( { toggleModal, isActive } ) => {
     console.log('Inside')
   };
 
+  const verifyEmailLink = () => {
+    console.log('Here is the game Link', gameLink);
+  };
+
   useEffect(() => {
     document.addEventListener('mousedown', handleClickOutside);
     return () => document.removeEventListener('mousedown', handleClickOutside);
@@ -31,15 +36,9 @@ const JoinGame:React.FC<Props> = ( { toggleModal, isActive } ) => {
         <JoinContainer >
           <JoinHeader>Join Game</JoinHeader>
         <label>
-        Game Link:
-        <input
-          type="text"
-          value={gameLink}
-          onChange={e => {
-            setGameLink(e.target.value)
-          }}
-        />
+        Game Link: <input type="text" value={gameLink} onChange={e => { setGameLink(e.target.value)}}/>
       </label>
+      <InterActiveButton onClick={() => verifyEmailLink()}>Verify Link</InterActiveButton>
         </JoinContainer>
       </ModalStyle>
   );
