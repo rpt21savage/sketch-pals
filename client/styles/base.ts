@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
   }
   body, html {
     height: 100%;
-    font-family: sans-serif;
+    font-family: 'ABeeZee', sans-serif;
   }
 `;
 
