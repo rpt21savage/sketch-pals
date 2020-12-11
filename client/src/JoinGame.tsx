@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { useState, useEffect, useRef } from 'react';
-import { ModalStyle, JoinContainer, JoinHeader } from '../styles/Join';
-import { InterActiveButton } from '../styles/Landing';
+import { ModalStyle, JoinContainer, JoinHeader, VerifyButton } from '../styles/Join';
 
 interface Props {
   toggleModal: (isActive: boolean) => void;
@@ -35,10 +34,12 @@ const JoinGame:React.FC<Props> = ( { toggleModal, isActive } ) => {
       <ModalStyle ref={myRef} onClick={()=> handleClickInside()}>
         <JoinContainer >
           <JoinHeader>Join Game</JoinHeader>
-        <label>
-        Game Link: <input type="text" value={gameLink} onChange={e => { setGameLink(e.target.value)}}/>
-      </label>
-      <InterActiveButton onClick={() => verifyEmailLink()}>Verify Link</InterActiveButton>
+          <div>
+            <label>
+            Game Link: <input type="text" value={gameLink} onChange={e => { setGameLink(e.target.value)}}/>
+            </label>
+          </div>
+            <VerifyButton onClick={() => verifyEmailLink()}>Verify Link</VerifyButton>
         </JoinContainer>
       </ModalStyle>
   );

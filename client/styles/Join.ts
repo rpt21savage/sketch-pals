@@ -5,7 +5,7 @@ export const ModalStyle = styled.div`
   background: #fff;
   border-radius: 8px;
   display: inline-block;
-  height: 550px;
+  height: 300px;
   border-radius: 15px;
   margin: 1rem;
   position: relative;
@@ -15,6 +15,7 @@ export const ModalStyle = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  background-color: #FCEFEE;
 `;
 
 export const JoinContainer = styled.div`
@@ -22,10 +23,23 @@ export const JoinContainer = styled.div`
   height: 90%;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 `;
 
 export const JoinHeader = styled.div`
   font-size: 20px;
   font-weight: bold;
   margin-left: 20px;
+`;
+
+export const VerifyButton = styled.button`
+  background: #CC2E28;
+  padding: 20px;
+  width: 15%;
+  margin-top: 10px;
+  min-width: 200px;
+  border-radius: 12px;
+  color: white;
+  border: none;
 `;
